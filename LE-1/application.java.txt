@@ -1,0 +1,12 @@
+// Application class to test inheritance
+class Application {
+    public static void main(String args[]) {
+        // Create an instance of Mother class
+        Mother m = new Mother();
+        m.show(); // show() of Mother is called
+
+        // Create an instance of Child class
+        Child ch = new Child();
+        ch.show(); // show() inherited from Mother is called
+    }
+}
